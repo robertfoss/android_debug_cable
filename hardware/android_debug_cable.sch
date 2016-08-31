@@ -109,8 +109,6 @@ Wire Wire Line
 	3350 3050 3300 3050
 Wire Wire Line
 	3300 3050 3300 3250
-Wire Wire Line
-	3300 3150 3350 3150
 Text GLabel 2900 4900 2    60   Input ~ 0
 VCC
 Connection ~ 2750 4900
@@ -345,9 +343,9 @@ F 3 "" H 7800 4150 50  0000 C CNN
 	1    7800 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 4100 0    60   Input ~ 0
-RX
 Text GLabel 7500 4200 0    60   Input ~ 0
+RX
+Text GLabel 7500 4100 0    60   Input ~ 0
 TX
 Text GLabel 7500 4300 0    60   Input ~ 0
 GND
@@ -372,4 +370,6 @@ F 3 "" H 7450 2450 50  0000 C CNN
 	1    7250 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3300 3150 3350 3150
 $EndSCHEMATC
