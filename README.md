@@ -14,3 +14,7 @@ v0.2:
 - Increased outline corner radius
 - Increased board width with 0.02mm to 12.2mm
 - Switched RX/TX pins on 3.5mm connector
+
+v0.3:
+
+- Changed 3.5mm connector mechanical hole to have no copper
