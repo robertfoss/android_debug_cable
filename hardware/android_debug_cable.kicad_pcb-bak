@@ -148,9 +148,9 @@
     (pad 3 smd rect (at 6 5.3 270) (size 2.8 2) (layers F.Cu F.Paste F.Mask)
       (net 8 RX))
     (model ${KIPRJMOD}/lib/mj-3523-smt.wrl
-      (at (xyz 0.07874015748031496 -0.2362204724409449 0.07874015748031496))
-      (scale (xyz 3.5 3.5 3.5))
-      (rotate (xyz 90 180 -90))
+      (at (xyz 0.05905511811023623 -0.2755905511811024 0.03937007874015748))
+      (scale (xyz 3.7 3.7 3.7))
+      (rotate (xyz -90 0 90))
     )
   )
 
