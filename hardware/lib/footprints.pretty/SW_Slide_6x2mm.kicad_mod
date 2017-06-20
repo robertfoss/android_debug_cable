@@ -1,0 +1,18 @@
+(module SW_Slide_6x2mm (layer F.Cu) (tedit 5655FC76)
+  (descr "Connecteur 3 pins")
+  (tags "CONN DEV")
+  (fp_text reference SW1 (at 0 -1.397 180) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value POWER_SW (at 0.2 1.5) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (pad 1 thru_hole rect (at -2.49936 0) (size 1.524 1.524) (drill 0.99822) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 2.49936 0) (size 1.524 1.524) (drill 0.99822) (layers *.Cu *.Mask F.SilkS))
+  (model Buttons_Switches_ThroughHole.3dshapes/SW_Micro_SPST_Angled.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.33 0.33 0.33))
+    (rotate (xyz 0 0 0))
+  )
+)
