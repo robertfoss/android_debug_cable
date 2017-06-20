@@ -4,10 +4,22 @@
 
 
 ## Connector
+
     <=|==|###|###
     TX RX GD  3.3V
 
 ## Changelog
+
+v0.4:
+- Cost reduction
+  * Switch to male 3.5mm connector
+  * Switch from CP2103 to CP2102N
+  * Switch to cheaper 1.8v reg
+  * Switch to only one cap value
+
+v0.3:
+
+- Changed 3.5mm connector mechanical hole to have no copper
 
 v0.2:
 
@@ -19,6 +31,3 @@ v0.2:
 - Increased board width with 0.02mm to 12.2mm
 - Switched RX/TX pins on 3.5mm connector
 
-v0.3:
-
-- Changed 3.5mm connector mechanical hole to have no copper
