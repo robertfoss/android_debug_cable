@@ -3,6 +3,10 @@
 ![Alt text](/../media/v0.3_copperhead_front.png?raw=true "v0.3 copperhead front")
 
 
+## Connector
+    <=|==|###|###
+    TX RX GD  3.3V
+
 ## Changelog
 
 v0.2:
