@@ -5,8 +5,8 @@
 
 ## Connector
 
-    <=|==|###|###
-    TX RX GD  3.3V
+    ####|###|==|==>
+    3.3V GND RX  TX
 
 ## Changelog
 
