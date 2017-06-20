@@ -1,6 +1,6 @@
 # Android Debug Cable
 
-![Alt text](/../media/v0.3_copperhead_front.png?raw=true "v0.3 copperhead front")
+![Alt text](/../media/v0.4_front.png?raw=true "v0.4 front")
 
 
 ## Connector
