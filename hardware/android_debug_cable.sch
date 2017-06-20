@@ -132,17 +132,10 @@ F 3 "" H 3050 3050 50  0000 C CNN
 	1    3050 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 2950 2700 2950
-Wire Wire Line
-	2700 2950 2700 3150
 Text GLabel 3400 4250 2    60   Input ~ 0
 VCC
 Text GLabel 2600 3000 0    60   Input ~ 0
 VCC
-Wire Wire Line
-	2600 3000 2700 3000
-Connection ~ 2700 3000
 $Comp
 L C_Small C4
 U 1 1 57AE6C18
@@ -154,7 +147,6 @@ F 3 "" H 2700 3250 50  0000 C CNN
 	1    2700 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2700 3050
 $Comp
 L GND #PWR02
 U 1 1 57AE6CFA
@@ -177,14 +169,8 @@ F 3 "" H 3550 3250 50  0000 C CNN
 	1    3550 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 3450
-Wire Wire Line
-	3350 2950 3750 2950
-Wire Wire Line
-	3550 2950 3550 3150
 Text GLabel 3750 2950 2    60   Input ~ 0
 V1.8
-Connection ~ 3550 2950
 Text GLabel 3400 4450 2    60   Input ~ 0
 USB_D+
 Text GLabel 3400 4550 2    60   Input ~ 0
@@ -193,14 +179,6 @@ Text GLabel 4950 4150 0    60   Input ~ 0
 USB_D+
 Text GLabel 4950 4250 0    60   Input ~ 0
 USB_D-
-Wire Wire Line
-	5050 4150 4950 4150
-Wire Wire Line
-	4950 4250 5050 4250
-Text GLabel 4950 4050 0    60   Input ~ 0
-VCC
-Wire Wire Line
-	4950 4050 5050 4050
 Text GLabel 4650 3150 0    60   Input ~ 0
 V1.8
 $Comp
@@ -217,26 +195,22 @@ $EndComp
 $Comp
 L C_Small C2
 U 1 1 57AE72EC
-P 4850 3750
-F 0 "C2" V 4800 3850 50  0000 C CNN
-F 1 "1uF" V 4900 3850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4850 3750 50  0001 C CNN
-F 3 "" H 4850 3750 50  0000 C CNN
-	1    4850 3750
-	0    1    1    0   
+P 4350 3950
+F 0 "C2" H 4300 3900 50  0000 C CNN
+F 1 "1uF" H 4250 4050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4350 3950 50  0001 C CNN
+F 3 "" H 4350 3950 50  0000 C CNN
+	1    4350 3950
+	-1   0    0    1   
 $EndComp
 Text GLabel 5550 2450 1    60   Output ~ 0
 V3.3
-Text GLabel 4650 3750 0    60   Input ~ 0
+Text GLabel 4250 3750 0    60   Input ~ 0
 VCC
 Text GLabel 6400 3450 2    60   Input ~ 0
 TX
-Wire Wire Line
-	6400 3450 6250 3450
 Text GLabel 6400 3550 2    60   Input ~ 0
 RX
-Wire Wire Line
-	6400 3550 6250 3550
 $Comp
 L CONN_01X04 P3
 U 1 1 57AE7C57
@@ -250,20 +224,12 @@ F 3 "" H 7800 3600 50  0000 C CNN
 $EndComp
 Text GLabel 7500 3450 0    60   Input ~ 0
 V3.3
-Wire Wire Line
-	7500 3750 7600 3750
 Text GLabel 7500 3550 0    60   Input ~ 0
 GND
-Wire Wire Line
-	7500 3650 7600 3650
 Text GLabel 7500 3750 0    60   Input ~ 0
 TX
-Wire Wire Line
-	7500 3550 7600 3550
 Text GLabel 7500 3650 0    60   Input ~ 0
 RX
-Wire Wire Line
-	7500 3450 7600 3450
 $Comp
 L CONN_01X04 P2
 U 1 1 57AE816E
@@ -283,14 +249,6 @@ Text GLabel 7500 4200 0    60   Input ~ 0
 GND
 Text GLabel 7500 4300 0    60   Input ~ 0
 V3.3
-Wire Wire Line
-	7500 4300 7600 4300
-Wire Wire Line
-	7600 4200 7500 4200
-Wire Wire Line
-	7500 4100 7600 4100
-Wire Wire Line
-	7600 4000 7500 4000
 $Comp
 L TEST_1P W1
 U 1 1 57AF243B
@@ -302,16 +260,6 @@ F 3 "" H 7650 5150 50  0000 C CNN
 	1    7450 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 3050 2750 3050
-Wire Wire Line
-	2700 3450 2700 3350
-Wire Wire Line
-	3050 3350 3050 3550
-Wire Wire Line
-	3550 3450 3550 3350
-Wire Wire Line
-	2700 3450 3550 3450
 $Comp
 L CP2102N-A01-GQFN24 U2
 U 1 1 5946BDF1
@@ -334,21 +282,6 @@ F 3 "" H 5750 4850 50  0001 C CNN
 	1    5750 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 4650 5750 4850
-Wire Wire Line
-	5650 4650 5650 4750
-Wire Wire Line
-	5650 4750 5750 4750
-Connection ~ 5750 4750
-Wire Wire Line
-	5050 3750 4950 3750
-Wire Wire Line
-	4650 3750 4750 3750
-Wire Wire Line
-	5550 2750 5550 2850
-Wire Wire Line
-	5550 2550 5550 2450
 $Comp
 L R_Small R1
 U 1 1 5946D9F9
@@ -360,10 +293,6 @@ F 3 "" H 4850 3150 50  0001 C CNN
 	1    4850 3150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5050 3150 4950 3150
-Wire Wire Line
-	4650 3150 4750 3150
 Text GLabel 5650 2450 1    60   Input ~ 0
 V1.8
 $Comp
@@ -377,6 +306,82 @@ F 3 "" H 3150 4400 50  0001 C CNN
 	1    3000 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 59497964
+P 4350 4150
+F 0 "#PWR?" H 4350 3900 50  0001 C CNN
+F 1 "GND" H 4355 3977 50  0000 C CNN
+F 2 "" H 4350 4150 50  0001 C CNN
+F 3 "" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2950 2700 2950
+Wire Wire Line
+	2700 2950 2700 3150
+Wire Wire Line
+	2600 3000 2700 3000
+Connection ~ 2700 3000
+Connection ~ 2700 3050
+Connection ~ 3050 3450
+Wire Wire Line
+	3350 2950 3750 2950
+Wire Wire Line
+	3550 2950 3550 3150
+Connection ~ 3550 2950
+Wire Wire Line
+	5050 4150 4950 4150
+Wire Wire Line
+	4950 4250 5050 4250
+Wire Wire Line
+	6400 3450 6250 3450
+Wire Wire Line
+	6400 3550 6250 3550
+Wire Wire Line
+	7500 3750 7600 3750
+Wire Wire Line
+	7500 3650 7600 3650
+Wire Wire Line
+	7500 3550 7600 3550
+Wire Wire Line
+	7500 3450 7600 3450
+Wire Wire Line
+	7500 4300 7600 4300
+Wire Wire Line
+	7600 4200 7500 4200
+Wire Wire Line
+	7500 4100 7600 4100
+Wire Wire Line
+	7600 4000 7500 4000
+Wire Wire Line
+	2700 3050 2750 3050
+Wire Wire Line
+	2700 3450 2700 3350
+Wire Wire Line
+	3050 3350 3050 3550
+Wire Wire Line
+	3550 3450 3550 3350
+Wire Wire Line
+	2700 3450 3550 3450
+Wire Wire Line
+	5750 4650 5750 4850
+Wire Wire Line
+	5650 4650 5650 4750
+Wire Wire Line
+	5650 4750 5750 4750
+Connection ~ 5750 4750
+Wire Wire Line
+	4250 3750 5050 3750
+Wire Wire Line
+	5550 2750 5550 2850
+Wire Wire Line
+	5550 2550 5550 2450
+Wire Wire Line
+	5050 3150 4950 3150
+Wire Wire Line
+	4650 3150 4750 3150
 Wire Wire Line
 	2900 4850 2900 4950
 Wire Wire Line
@@ -392,4 +397,9 @@ Wire Wire Line
 	3400 4250 3300 4250
 Wire Wire Line
 	5650 2450 5650 2850
+Connection ~ 4350 3750
+Wire Wire Line
+	4350 4150 4350 4050
+Wire Wire Line
+	4350 3850 4350 3750
 $EndSCHEMATC
