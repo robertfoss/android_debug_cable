@@ -269,19 +269,19 @@ L CONN_01X04 P2
 U 1 1 57AE816E
 P 7800 4150
 F 0 "P2" H 7878 4191 50  0000 L CNN
-F 1 "SJ-43514-SMT-TR" H 7878 4100 50  0000 L CNN
+F 1 "50-00397" H 7878 4100 50  0000 L CNN
 F 2 "50-00397:50-00397" H 7800 4150 50  0001 C CNN
 F 3 "" H 7800 4150 50  0000 C CNN
 	1    7800 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 4200 0    60   Input ~ 0
-RX
 Text GLabel 7500 4100 0    60   Input ~ 0
-TX
-Text GLabel 7500 4300 0    60   Input ~ 0
-GND
+RX
 Text GLabel 7500 4000 0    60   Input ~ 0
+TX
+Text GLabel 7500 4200 0    60   Input ~ 0
+GND
+Text GLabel 7500 4300 0    60   Input ~ 0
 V3.3
 Wire Wire Line
 	7500 4300 7600 4300

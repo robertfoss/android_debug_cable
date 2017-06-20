@@ -248,19 +248,19 @@ F 3 "" H 7800 3600 50  0000 C CNN
 	1    7800 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 3750 0    60   Input ~ 0
+Text GLabel 7500 3450 0    60   Input ~ 0
 V3.3
 Wire Wire Line
 	7500 3750 7600 3750
-Text GLabel 7500 3650 0    60   Input ~ 0
+Text GLabel 7500 3550 0    60   Input ~ 0
 GND
 Wire Wire Line
 	7500 3650 7600 3650
-Text GLabel 7500 3550 0    60   Input ~ 0
+Text GLabel 7500 3750 0    60   Input ~ 0
 TX
 Wire Wire Line
 	7500 3550 7600 3550
-Text GLabel 7500 3450 0    60   Input ~ 0
+Text GLabel 7500 3650 0    60   Input ~ 0
 RX
 Wire Wire Line
 	7500 3450 7600 3450
@@ -275,13 +275,13 @@ F 3 "" H 7800 4150 50  0000 C CNN
 	1    7800 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 4200 0    60   Input ~ 0
-RX
 Text GLabel 7500 4100 0    60   Input ~ 0
-TX
-Text GLabel 7500 4300 0    60   Input ~ 0
-GND
+RX
 Text GLabel 7500 4000 0    60   Input ~ 0
+TX
+Text GLabel 7500 4200 0    60   Input ~ 0
+GND
+Text GLabel 7500 4300 0    60   Input ~ 0
 V3.3
 Wire Wire Line
 	7500 4300 7600 4300
