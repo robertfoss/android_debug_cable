@@ -11,11 +11,12 @@
 ## Changelog
 
 v0.4:
-- Cost reduction
+- Cost reductions:
   * Switch to male 3.5mm connector
   * Switch from CP2103 to CP2102N
   * Switch to cheaper 1.8v reg
   * Switch to only one cap value
+  * Smaller PCB
 
 v0.3:
 
