@@ -10,6 +10,9 @@
 
 ## Changelog
 
+v0.5:
+- Switch to throughole 3.5mm connector
+
 v0.4:
 - Cost reductions:
   * Switch to male 3.5mm connector
