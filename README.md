@@ -1,6 +1,6 @@
 # Android Debug Cable
 
-![Alt text](/../media/v0.4_front.png?raw=true "v0.4 front")
+![Alt text](/../media/v0.5_front.png?raw=true "v0.5 front")
 
 
 ## Connector
