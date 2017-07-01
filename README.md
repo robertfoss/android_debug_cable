@@ -10,6 +10,9 @@
 
 ## Changelog
 
+v0.6:
+- Fix C1 to be actually decoupling
+
 v0.5:
 - Switch to throughole 3.5mm connector
 

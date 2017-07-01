@@ -1,11 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-0e71686~58~ubuntu17.04.1*
-G04 #@! TF.CreationDate,2017-06-27T12:42:27-04:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-5d25263~58~ubuntu17.04.1*
+G04 #@! TF.CreationDate,2017-07-01T14:56:20+02:00*
 G04 #@! TF.ProjectId,android_debug_cable,616E64726F69645F64656275675F6361,rev?*
+G04 #@! TF.SameCoordinates,Original
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-0e71686~58~ubuntu17.04.1) date Tue Jun 27 12:42:27 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-5d25263~58~ubuntu17.04.1) date Sat Jul  1 14:56:20 2017*
 %MOMM*%
 %LPD*%
 G01*
@@ -43,8 +44,6 @@ D14*
 X133900000Y-85140000D03*
 X133900000Y-92140000D03*
 D15*
-X139380000Y-85520000D03*
-X138280000Y-85520000D03*
 X138290000Y-90560000D03*
 X139390000Y-90560000D03*
 X139390000Y-91690000D03*
@@ -100,4 +99,7 @@ X142450000Y-87610000D03*
 X142450000Y-87110000D03*
 X142450000Y-86610000D03*
 X142450000Y-86110000D03*
+D15*
+X138280000Y-85550000D03*
+X139380000Y-85550000D03*
 M02*
