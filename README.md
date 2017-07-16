@@ -10,6 +10,10 @@
 
 ## Changelog
 
+v0.7:
+ - Fix VBUS being unconnected
+ - Shrink connector holes
+
 v0.6:
 - Fix C1 to be actually decoupling
 
